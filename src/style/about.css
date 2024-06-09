@@ -1,0 +1,161 @@
+/* about.css */
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* About Section Styles */
+
+.about-mf {
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-mf .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.about-mf .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-mf .col-md-6 {
+  flex-basis: 50%;
+  margin: 10px;
+}
+
+.about-mf .about-img {
+  margin: 10px auto;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.about-mf .about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.skill-mf {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-mf span {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.skill-mf .progress {
+  height: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-mf .title-s{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.skill-mf .progress-bar {
+  height: 100%;
+  background-color: #337ab7;
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.about-me {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me .title-box-2 {
+  margin-bottom: 15px;
+}
+
+.about-me .title-box-2 .title-left {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.about-me p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-family: 'Merriweather', serif;
+}
+
+/* Font Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .about-mf .col-md-6 {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-mf .about-img {
+    height: 100px;
+  }
+}
